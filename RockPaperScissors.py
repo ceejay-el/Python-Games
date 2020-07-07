@@ -17,7 +17,6 @@ def rockPaperScissors():
         restart = input("Computer *facepalms: Play again? [y or n]").lower()
         playAgain(restart)
 
-
 def playAgain(restart):
     if restart != "y" and restart != "n":
         print("Oy-vey. Let's just play again (--_)")

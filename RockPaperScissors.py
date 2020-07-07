@@ -1,5 +1,3 @@
-# Rock, Paper Scissors
-
 import random
 
 def rockPaperScissors():
@@ -21,11 +19,9 @@ def rockPaperScissors():
 
 
 def playAgain(restart):
-    if restart == "y":
-        rockPaperScissors()
-    elif restart != "y" and restart != "n":
-        print("Oy-vey")
-    else:
+    if restart != "y" and restart != "n":
+        print("Oy-vey. Let's just play again (--_)")
+    elif restart == "n":
         exit()
 
 #main
